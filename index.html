@@ -13,8 +13,30 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-
+<body class="container mx-auto">
+    <header class="font-raleway my-5">
+        <!-- nav bar -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <a class="btn btn-ghost text-4xl font-extrabold">GF-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 space-x-10 font-medium">
+                        <li><a class="text-[#030712] opacity-70">Home</a></li>
+                        <li><a class="text-[#030712] opacity-70">About</a></li>
+                        <li><a class="text-[#030712] opacity-70">Destination</a></li>
+                        <li><a class="text-[#030712] opacity-70">Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a
+                        class="btn bg-[#1DD1001A] rounded-xl text-[#1DD100] font-bold text-xl px-[30px] py-[22px] w-[130px] h-[56px] border-green-400">Bus
+                        <img src="images/bus-icon.png" alt=""> </a>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
