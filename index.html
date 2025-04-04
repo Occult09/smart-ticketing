@@ -13,8 +13,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="container mx-auto">
-    <header class="font-raleway my-5">
+<body>
+    <!-- Header Section Starts -->
+    <header class="font-raleway my-5 container mx-auto">
         <!-- nav bar -->
         <nav class="mb-5">
             <div class="navbar bg-base-100">
@@ -39,7 +40,7 @@
         <!-- banner section -->
         <section>
             <div
-                class="lg:w-[1171px] lg:h-[550px] rounded-[32px] bg-[url(/images/banner.png)] bg-no-repeat mx-auto flex flex-col justify-center space-y-8 p-3">
+                class="w-[400px] lg:w-[1171px] lg:h-[550px] rounded-[32px] bg-[url(/images/banner.png)] bg-no-repeat mx-auto flex flex-col justify-center space-y-8 p-3">
                 <h1 class="text-center text-6xl text-white font-extrabold"><span>End-to-End Travel with</span> <br>
                     <span class="text-[#1DD100]">GF
                         Paribahan</span>
@@ -90,6 +91,46 @@
             </div>
         </section>
     </header>
+    <!-- Main Section Starts -->
+    <main>
+        <!-- Best Offer Section -->
+        <section class="container mx-auto font-raleway">
+            <h3 class="text-[40px] font-bold text-[#030712] text-center mt-10 lg:mt-0">Best offers for you</h3>
+            <!-- Offer Coupons -->
+            <div class="mt-5 flex flex-col lg:flex-row justify-center gap-5">
+                <!-- Coupon 1 -->
+                <div
+                    class="bg-[#FFBF0F] bg-[url(/images/cupon-devider.png)] bg-no-repeat bg-position-[center_left_14rem] lg:bg-position-[center_left_21rem] w-[410px] h-[200px] lg:w-[573px] lg:h-[220px] flex justify-between px-5 lg:px-8 rounded-3xl mx-auto lg:mx-0">
+                    <div class="font-inter my-auto">
+                        <h4 class="text-[40px] font-black text-[#030712] opacity-80">15% OFF</h4>
+                        <p class="text-xl font-semibold text-[#030712] opacity-80">on your next purchase</p>
+                        <p class="font-medium text-[#030712] opacity-50">use by January 2024</p>
+                    </div>
+                    <div class="my-auto text-center">
+                        <h4 class="text-3xl font-bold text-[#030712]">NEW15</h4>
+                        <p class="font-medium text-xl text-[#030712] opacity-40">Coupon Code</p>
+                    </div>
+                </div>
+                <!-- Coupon 2 -->
+                <div
+                    class="bg-[#F78C9C] bg-[url(/images/cupon-devider.png)] bg-no-repeat bg-position-[center_left_14rem] lg:bg-position-[center_left_21rem] w-[410px] h-[200px] lg:w-[573px] lg:h-[220px] flex justify-between px-5 lg:px-8 rounded-3xl mx-auto lg:mx-0">
+                    <div class="font-inter my-auto">
+                        <h4 class="text-[40px] font-black text-[#030712] opacity-80">20% OFF</h4>
+                        <p class="text-xl font-semibold text-[#030712] opacity-80">on your next purchase</p>
+                        <p class="font-medium text-[#030712] opacity-50">use by January 2024</p>
+                    </div>
+                    <div class="my-auto text-center">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-[#030712]">Couple 20</h4>
+                        <p class="font-medium text-xl text-[#030712] opacity-40">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer Button -->
+            <div class="mt-10 text-center">
+                <button class="btn rounded-xl border-[#1DD100] text-[#1DD100] text-xl font-bold w-[188px] h-[65px] px-[25px] py-[20px]">See All Offers</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
